@@ -1,3 +1,4 @@
-import { pessoaType } from "./pessoa";
+import { enderecoType } from "./endereco";
+import { pessoaType  } from "./pessoa";
 
-export const schemaTypes = [pessoaType]
+export const schemaTypes = [pessoaType, enderecoType]
